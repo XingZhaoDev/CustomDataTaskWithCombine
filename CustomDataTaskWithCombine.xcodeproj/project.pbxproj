@@ -13,6 +13,8 @@
 		B3262372262E25FB003049EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3262370262E25FB003049EC /* Main.storyboard */; };
 		B3262374262E25FC003049EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3262373262E25FC003049EC /* Assets.xcassets */; };
 		B3262377262E25FC003049EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3262375262E25FC003049EC /* LaunchScreen.storyboard */; };
+		B3262380262E260F003049EC /* CustomDataTaskSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B326237F262E260F003049EC /* CustomDataTaskSubscriber.swift */; };
+		B3262383262E26AE003049EC /* CustomDataTaskPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3262382262E26AE003049EC /* CustomDataTaskPublisher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B3262373262E25FC003049EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3262376262E25FC003049EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3262378262E25FC003049EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B326237F262E260F003049EC /* CustomDataTaskSubscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDataTaskSubscriber.swift; sourceTree = "<group>"; };
+		B3262382262E26AE003049EC /* CustomDataTaskPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDataTaskPublisher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				B3262373262E25FC003049EC /* Assets.xcassets */,
 				B3262375262E25FC003049EC /* LaunchScreen.storyboard */,
 				B3262378262E25FC003049EC /* Info.plist */,
+				B326237F262E260F003049EC /* CustomDataTaskSubscriber.swift */,
+				B3262382262E26AE003049EC /* CustomDataTaskPublisher.swift */,
 			);
 			path = CustomDataTaskWithCombine;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B326236F262E25FB003049EC /* ViewController.swift in Sources */,
+				B3262380262E260F003049EC /* CustomDataTaskSubscriber.swift in Sources */,
 				B326236B262E25FB003049EC /* AppDelegate.swift in Sources */,
 				B326236D262E25FB003049EC /* SceneDelegate.swift in Sources */,
+				B3262383262E26AE003049EC /* CustomDataTaskPublisher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
