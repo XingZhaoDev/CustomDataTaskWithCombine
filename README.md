@@ -1,5 +1,5 @@
 # CustomDataTaskWithCombine
-Create Custom Data Task Publisher &amp; Subscriber &amp; Subscription with iOS Combine Framework. This project can help developers to better understand the Combine Framework.
+Create Custom Data Task (URLSession)Publisher &amp; Subscriber &amp; Subscription with iOS Combine Framework. This project can help developers to better understand the Combine Framework.
 
 class CustomDataTaskSubscriber<Input: Decodable>: Subscriber {
     
